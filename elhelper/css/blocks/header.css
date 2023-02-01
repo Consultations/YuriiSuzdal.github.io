@@ -1,0 +1,111 @@
+/*.header {
+	background: url('../../img/ocean.jpg') center top no-repeat #555;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 16.6%;
+}*/
+.header {}
+.header__wrap {
+	background-color: #555;
+/*margin-bottom: 15px;	*/
+}
+.header__top {
+	display: grid;
+	width: 1320px;
+	grid-template-columns: 175px 1fr;
+	grid-column-gap: 20px;
+	align-items: center;
+	padding: 30px 24px;
+	box-sizing: border-box;
+	background-color: #555;
+	margin: 0 auto;
+}
+.header__info {
+	margin-top: 16.66%;
+	margin-bottom: 16.66%;
+}
+.header__title {
+	color: #fff;
+	font-size: 40px;
+	line-height: 70px;
+	letter-spacing: 6px;
+	text-align: center;
+	font-weight: normal;
+}
+.header__text {
+	text-align: center;
+}
+.header__link {
+	font-size: 22px;	
+	line-height: 45px;
+	color: 	#f84545;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: 3px;	
+	transition-duration: 500ms;
+	transition-property: letter-spacing;
+}
+.header__link:hover {
+	letter-spacing: 3.5px;
+}
+.header__btn {
+	text-decoration: none;
+	display: 	block;
+	margin: 0 auto;	
+	color: #fff;
+	width: 48px;	
+	height: 96px;	
+	filter: invert(100%);
+	cursor: pointer;
+}
+@media (max-width: 1399px) {
+	.header__top {width: 100%;margin: 0}
+}
+@media (max-width: 1280px) {
+	.header__title {
+		font-size: 35px;
+		line-height: 60px;
+		letter-spacing: 4px;
+	}
+}
+@media (max-width: 980px) {
+	.header__link {
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	.header__link:hover {
+		letter-spacing: 2.5px;
+	}
+}
+@media (max-width: 768px) {
+	.header__top {
+		grid-template-columns: auto;
+		justify-items: center
+	}
+	.header__logo {
+		margin-bottom: 25px
+	}
+	.header__link {
+			font-size: 18px;
+			letter-spacing: 1.5px;
+		}
+		.header__link:hover {
+			letter-spacing: 2px;
+		}
+}
+@media (max-width: 580px) {
+	.header__title {
+		font-size: 30px;
+		line-height: 50px;
+		letter-spacing: 3px;
+	}
+	.header__link {
+		font-size: 16px;
+		letter-spacing: 1px;
+		line-height: 35px;
+	}
+	.header__link:hover {
+		letter-spacing: 1.5px;
+	}
+}
