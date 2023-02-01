@@ -2,90 +2,76 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-	<title>Мой первый сайт</title>
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Electrical advice</title>
 </head>
 <body>
-<div class="section">
-	<div class="container">
-		<!-- Первый row (строка) под заголовком -->
-		<div class="row">
-			<div class="col-lg-6 offset-lg-3">
-				<h1 class="header text-center">
-					<span>Получите видео-инструкцию</span>
-					<strong class="text-uppercase">Как заработать свой первый миллион</strong>			
-				</h1>
+	<section class="header__wrap">
+		<header class="header header__top">
+			<div class="header__logo logo">
+				<a class="logo__link" href="index.html">
+					<img class="logo__img" src="img/Logo-Help.png" alt="Логотип">
+				</a>
 			</div>
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="protection.html">Как выбрать <br>аппараты <br>защиты</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">Как выбрать <br>сечение <br>проводника</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">Как <br>выполнить <br>расчёт</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">Как <br>выполнить <br>монтаж</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#">Справочная <br>информация</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</section>
+	<section class="download__wrap">
+		<div class="download">
+			<h1 class="download__title">Электричество - <br>	это очень просто!</h1>
+			<p class="download__text">
+				<a class="header__link" href="#0" id="modal-trigger" data-type="cd-modal-trigger">Консультации по расчетам и построению принципиальных <br>	схем питающих и распределительных сетей</a>
+			</p>
 		</div>
-		<!-- Второй row (строка) под видео -->
-		<div class="row">
-			<div class="col-lg-6 offset-lg-1 col-md-8 offset-md-2">
-				<div class="video">
-					<iframe width="100%" height="315" src="https://www.youtube.com/embed/ayVLjyWqMCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
-				<div class="form">
-					<p class="form-header text-center">Введите свой email</p>
-					<form action="#">
-						<input type="text" class="form-control form-control-lg" placeholder="Ваше имя">
-						<input type="text" class="form-control form-control-lg" placeholder="name@example.com">
-						<div class="d-grid gap-2">
-  						<button type="button" class="btn btn-primary btn-lg form-btn">Получить инструкцию</button>
-  					</div>
-					</form>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</div>
-<div class="section">
-	<div class="container">
-		<!-- row под заголовок секции -->
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="section-header text-uppercase text-center">Почему нужно сделать это сейчас?</h2>
-			</div>
-		</div>
-	<!-- блок с преимуществами -->
-		<div class="feature text-center">
-			<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-box">
-					<img src="img/01.png" alt="Первое преимущество">
-					<p>Первое преимущество</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-box">
-					<img src="img/02.png" alt="Второе преимущество">
-					<p>Второе преимущество</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-box">
-					<img src="img/03.png" alt="Третье преимущество">
-					<p>Третье преимущество</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-box">
-					<img src="img/04.png" alt="Четвёртое преимущество">
-					<p>Четвёртое преимущество</p>
-				</div>
+	</section>
+	<footer class="footer">	
+			<div class="footer__wrap core__wrap">
+				<nav class="menu--black header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">&copy; el-helper</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">защита</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">проводники</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">расчёты</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">монтаж</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">галлерея</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- <ul class="socials"> -->
+        		<div class="socials__item">
+          			<a class="logo__link" href="#">
+						<object type="image/svg+xml" data="img/Logo-Help.svg" width="175" height="40" ></object> 
+					</a>
+       			</div>
 			</div>	
-			</div>
-		</div>
-		<!-- Кнопка Получить инструкцию -->
-		<div class="d-grid gap-2 col-lg-4 col-md-2 mx-auto">				
-		<button type="button" class="btn btn-primary btn-lg form-btn">Получить инструкцию</button> 
-		</div>
-	</div>
-</div>
-
-
+	</footer>	
 </body>
 </html>
