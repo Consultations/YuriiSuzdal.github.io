@@ -1,39 +1,11 @@
-.header {
-	/*text-align: center;*/
-		font-size: 20px;
-		margin: 60px auto;
-}
-.header span {
-	/*font-weight: 300;*/
-	display: block;
-	line-height: 1.5;
-}
-.section {
-	padding: 30px;
-}
-.form-header, .section-header {
-	margin-bottom: 20px;
-	font-weight: 900;
-	font-size: 20px;
-	/*text-transform: uppercase;*/
-}
-.form {
-	border: 5px solid #2727d9;
-	padding: 35px 20px;
-}
-.form input {
-margin-bottom: 10px;
-}
-.form-btn {
-	margin: 10px;
-	background-color: #2727d9;
-}
-.feature {
-	margin: 60px;
-}
-.feature p {
-	margin-top: 20px;
-}
-.video {
-	margin-bottom: 30px;
-}
+@import url('fonts.css');
+@import url('core.css');
+@import url('blocks/container.css');
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/menu.css');
+@import url('blocks/svg.css');
+@import url('blocks/download.css');
+@import url('blocks/footer.css');
+@import url('blocks/socials.css');
+@import url('blocks/protection.css');
